@@ -32,7 +32,7 @@ export default function About() {
           experiences across different devices.
         </p>
 
-        <p className="mb-6">
+        <p className="mb-6"> 
           Alongside frontend development, I have a solid understanding of Python
           fundamentals, including basic programming concepts, problem-solving,
           and logical thinking. This helps me approach development with stronger
