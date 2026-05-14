@@ -33,10 +33,10 @@ export default function Navbar() {
           className="flex items-center gap-2"
         >
           <div className="w-10 h-10 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-xl flex items-center justify-center font-black text-white shadow-lg shadow-blue-500/20">
-            V
+            VG
           </div>
           <h1 className="text-xl font-black text-white tracking-tighter">
-            VINEETHA
+            VINEETHA GODASI
           </h1>
         </motion.div>
 
