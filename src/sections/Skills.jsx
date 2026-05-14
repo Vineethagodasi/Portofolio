@@ -4,6 +4,7 @@ import {
   FaCss3Alt, 
   FaJs, 
   FaReact, 
+ 
   FaPython, 
   FaDatabase, 
   FaGithub,
@@ -16,6 +17,7 @@ const skills = [
   { name: "CSS3", icon: <FaCss3Alt />, level: 95, color: "text-blue-500" },
   { name: "JavaScript", icon: <FaJs />, level: 90, color: "text-yellow-400" },
   { name: "React.js", icon: <FaReact />, level: 95, color: "text-cyan-400" },
+
   { name: "Tailwind CSS", icon: <SiTailwindcss />, level: 92, color: "text-sky-400" },
   { name: "Python", icon: <FaPython />, level: 60, color: "text-blue-400" },
   { name: "MySQL", icon: <FaDatabase />, level: 55, color: "text-slate-400" },
