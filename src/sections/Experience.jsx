@@ -5,7 +5,7 @@ const experiences = [
   {
     role: "Frontend Developer",
     company: "Techpixe",
-    type: "Internship",
+    type: "Experience",
     duration: "Dec 2025 - May 2026",
     location: "Hyderabad, Telangana, India · On-site",
     description: "Developed and maintained responsive web applications using React.js and modern JavaScript. Collaborated with the team to implement pixel-perfect designs and optimized frontend performance.",

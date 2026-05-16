@@ -79,7 +79,7 @@ export default function About() {
                   </p>
                   <p>
                     <span className="text-gray-400">experience:</span>{" "}
-                    <span className="text-emerald-400">"Fresher / Intern"</span>,
+                    <span className="text-emerald-400">"6 Months"</span>,
                   </p>
                   <p>
                     <span className="text-gray-400">stack:</span>{" "}
