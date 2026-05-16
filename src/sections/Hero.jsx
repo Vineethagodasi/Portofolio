@@ -32,7 +32,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-6xl md:text-9xl font-black leading-tight text-white mb-6"
+          className="text-5xl sm:text-7xl md:text-9xl font-black leading-tight text-white mb-6"
         >
           I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">Vineetha</span>
         </motion.h1>
@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="h-12 flex items-center justify-center mb-8"
+          className="h-10 md:h-12 flex items-center justify-center mb-8"
         >
           <TypeAnimation
             sequence={[
@@ -49,12 +49,10 @@ export default function Hero() {
               2000,
               "React Specialist ",
               2000,
-            // "Future Python Engineer ",
-            // 2000,
             ]}
             speed={50}
             repeat={Infinity}
-            className="text-3xl md:text-4xl font-bold text-gray-400"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-400"
           />
         </motion.div>
 
@@ -62,7 +60,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-gray-400 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto"
+          className="text-gray-400 text-lg md:text-2xl leading-relaxed max-w-2xl mx-auto px-4 sm:px-0"
         >
           Building high-performance, visually stunning digital experiences with modern web technologies. Focused on creating interfaces that feel alive.
         </motion.p>
@@ -71,11 +69,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-16 flex flex-wrap justify-center gap-8"
+          className="mt-12 md:mt-16 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8"
         >
           <a
             href="#quests"
-            className="group px-10 py-5 bg-white text-slate-950 font-black rounded-2xl flex items-center gap-3 hover:scale-105 transition-all shadow-[0_0_30px_rgba(255,255,255,0.2)]"
+            className="w-full sm:w-auto group px-10 py-5 bg-white text-slate-950 font-black rounded-2xl flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-[0_0_30px_rgba(255,255,255,0.2)]"
           >
             View Quests
             <FaArrowRight className="text-sm group-hover:translate-x-1 transition-transform" />
@@ -83,7 +81,7 @@ export default function Hero() {
 
           <a
             href="#Profile"
-            className="px-10 py-5 bg-white/5 border border-white/10 text-white font-bold rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all flex items-center gap-3"
+            className="w-full sm:w-auto px-10 py-5 bg-white/5 border border-white/10 text-white font-bold rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all flex items-center justify-center gap-3"
           >
             Know Me
             <FaDownload className="text-sm text-blue-500" />

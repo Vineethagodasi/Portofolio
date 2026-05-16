@@ -38,7 +38,7 @@ const ExperienceCard = ({ exp, index }) => (
           </div>
         </div>
         
-        <div className="flex flex-col items-end gap-2 text-right">
+        <div className="flex flex-col items-start md:items-end gap-2 md:text-right">
           <div className="flex items-center gap-2 text-gray-500 text-sm">
             <FaCalendarAlt /> {exp.duration}
           </div>

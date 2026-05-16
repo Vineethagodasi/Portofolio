@@ -3,8 +3,7 @@ import {
   FaHtml5, 
   FaCss3Alt, 
   FaJs, 
-  FaReact, 
- 
+  FaReact,
   FaPython, 
   FaDatabase, 
   FaGithub,

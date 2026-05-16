@@ -45,7 +45,7 @@ export default function About() {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-6 rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
           {/* Left: Code Editor Card */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -107,14 +107,14 @@ export default function About() {
               initial={{ scale: 0, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="absolute -bottom-8 -right-8 bg-[#252525] p-6 rounded-2xl border border-white/10 shadow-2xl flex items-center gap-4 backdrop-blur-xl"
+              className="absolute -bottom-6 right-0 md:-bottom-8 md:-right-8 bg-[#252525] p-4 md:p-6 rounded-2xl border border-white/10 shadow-2xl flex items-center gap-4 backdrop-blur-xl z-20"
             >
-              <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center">
-                <Rocket className="w-6 h-6 text-blue-400" />
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-blue-500/20 flex items-center justify-center">
+                <Rocket className="w-5 h-5 md:w-6 md:h-6 text-blue-400" />
               </div>
               <div>
-                <p className="text-xl font-bold text-white">Open to Work</p>
-                <p className="text-xs text-gray-500">Ready for new challenges</p>
+                <p className="text-lg md:text-xl font-bold text-white whitespace-nowrap">Open to Work</p>
+                <p className="text-[10px] md:text-xs text-gray-500">Ready for new challenges</p>
               </div>
             </motion.div>
           </motion.div>
@@ -154,23 +154,25 @@ export default function About() {
             </div>
 
             {/* Footer Contact */}
-            <div className="flex flex-wrap items-center gap-6 pt-4 text-gray-400 border-t border-white/5">
-              <a href="mailto:vineethagodasi@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:flex md:flex-wrap md:items-center md:gap-6 pt-6 text-gray-400 border-t border-white/5">
+              <a href="mailto:vineethagodasi@gmail.com" className="flex items-center gap-3 bg-white/5 sm:bg-transparent p-3 sm:p-0 rounded-xl hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">vineethagodasi@gmail.com</span>
+                <span className="text-sm truncate">vineethagodasi@gmail.com</span>
               </a>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 bg-white/5 sm:bg-transparent p-3 sm:p-0 rounded-xl">
                 <Phone className="w-4 h-4 text-blue-400" />
                 <span className="text-sm">91+ 9666593898</span>
               </div>
-              <a href="https://linkedin.com/in/vineethagodasi" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Linkedin className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">LinkedIn</span>
-              </a>
-                  <a href="https://github.com/vineethagodasi" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Github className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">Git</span>
-              </a>
+              <div className="flex gap-4">
+                <a href="https://linkedin.com/in/vineethagodasi" target="_blank" className="flex-1 flex items-center justify-center gap-2 bg-white/5 sm:bg-transparent p-3 sm:p-0 rounded-xl hover:text-white transition-colors">
+                  <Linkedin className="w-4 h-4 text-blue-400" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
+                <a href="https://github.com/vineethagodasi" target="_blank" className="flex-1 flex items-center justify-center gap-2 bg-white/5 sm:bg-transparent p-3 sm:p-0 rounded-xl hover:text-white transition-colors">
+                  <Github className="w-4 h-4 text-blue-400" />
+                  <span className="text-sm">GitHub</span>
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
